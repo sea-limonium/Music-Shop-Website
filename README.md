@@ -27,5 +27,31 @@ Rustic Rhythms is a simulated online record shop featuring a storefront that dyn
 - Cohesive brand identity (custom logo, colour palette, typography)
 
 ---
+## Installation & Setup
+
+1. Download the `Music_Shop_Website.zip` from this repository and unzip the folder.
+
+```bash
+unzip Music_Shop_Website.zip
+cd Music_Shop_Website
+```
+
+2. Open `index.html` in your browser (Microsoft Edge is recommended) — this is your entry point into the website.
+
+3. To view the store page (XML/XSLT), you'll need to enable **IE Mode** in Edge:
+   - Click the `⋯` menu → Settings → Default browser
+   - Toggle **"Allow sites to be reloaded in Internet Explorer mode"**
+   - Reload the store page using `⋯` → **"Reload in Internet Explorer mode"**
+
+
+> **Alternative:** If you have Python installed, you can serve the site locally to avoid browser XSLT restrictions:
+> ```bash
+> cd Music_Shop_Website
+> python3 -m http.server
+> ```
+> Then open `http://localhost:8000/index.html` in any browser.
+
+
+---
 ## Appendix
 Built as a group coursework project for CST1340 — Information in Organisations at Middlesex University (Spring 2025).
