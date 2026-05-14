@@ -36,7 +36,7 @@ unzip Music_Shop_Website.zip
 cd Music_Shop_Website
 ```
 
-2. Open `index.html` in your browser (Microsoft Edge is recommended) — this is your entry point into the website.
+2. Open `index.html` in your browser (Microsoft Edge is recommended).
 
 3. To view the store page (XML/XSLT), you'll need to enable **IE Mode** in Edge:
    - Click the `⋯` menu → Settings → Default browser
